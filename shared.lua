@@ -13,7 +13,3 @@ include("modules/sh_hook.lua")
 
 include("states/states.lua")
 states.init()
-
-function GM:OnReloaded()
-	states.handle_reload()
-end
